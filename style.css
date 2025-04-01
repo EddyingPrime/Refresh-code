@@ -15,21 +15,50 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  box-shadow: 5px;
-  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 15px;
+  border: 10px;
+  border-radius: 15px;
   overflow: hidden;
-  margin: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 3);
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .body {
   font-family: "Figtree", sans-serif;
   font-weight: 500;
-  background-color: White;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .published {
@@ -41,9 +70,21 @@
 }
 
 .card-tag {
-  background-color: yellow;
+  background-color: hsl(47, 88%, 63%);
 }
 
 .content {
   color: hsl(0, 0, 42%);
+  font-size: 16px;
+}
+
+.user-name {
+  font-size: 10px;
+}
+
+.user-name img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
