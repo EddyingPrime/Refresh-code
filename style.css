@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  background-color: White;
+}
+
+.published {
+  color: hsl(0, 0, 7%);
+}
+
+.h1 {
+  font-weight: 800;
+}
+
+.card-tag {
+  background-color: yellow;
+}
+
+.content {
+  color: hsl(0, 0, 42%);
+}
